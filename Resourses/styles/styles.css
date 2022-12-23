@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Bitter&display=swap");
+
+body {
+  font-family: Bitter, serif;
+  background: linear-gradient(305deg, #1d3da6 0%, #199fae 100%);
+}
+p {
+  color: aliceblue;
+}
+
+.nav-link {
+  color: antiquewhite;
+}
+.navbar-nav .nav-link.active {
+  color: antiquewhite;
+}
+.navbar-toggler {
+  background-color: rgb(122, 121, 121);
+}
+.card > img {
+  height: 350px;
+}
+.right-bar > p > a {
+  color: rgb(177, 209, 240);
+}
+.right-bar > p {
+  color: aliceblue;
+  background: linear-gradient(90deg, #2f4db1 0%, #199fae 100%);
+}
+
+.card {
+  color: aliceblue;
+  background: linear-gradient(180deg, #1d3da6 0%, #199fae 100%);
+}
+.slide-text,
+.footer-text {
+  color: aliceblue;
+  margin: auto auto;
+}
+@media (max-width: 755px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
+.col-lg-6 > img {
+  border-width: 10px;
+  border-style: double;
+  border-color: beige;
+}
+
+footer {
+  border-top-style: double;
+  border-color: azure;
+  border-width: 10px;
+}
+
+.footer {
+  padding: 50px;
+  margin: auto auto;
+}
+
+.ico > img {
+  border-radius: 50%;
+  margin: auto auto;
+  margin-inline: 1em;
+}
+.nav-item > a > img {
+  border-radius: 50%;
+  margin-inline: 1em;
+}
+.call {
+  animation: myAnim 1s ease 0s infinite normal forwards;
+}
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: rotate(-540deg) scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotate(0) scale(1);
+  }
+}
